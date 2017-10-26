@@ -1,0 +1,98 @@
+Started by user [8mha:AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgY+/dLi1CL94sS8lEpDI0MA5twwOcMAAAA=[0mSandeep Singh
+Building in workspace C:\Users\Administrator\.jenkins\workspace\SonarProrject1
+ > C:\Program Files\Git\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/sandy121singh/Sonarproject.git # timeout=10
+Fetching upstream changes from https://github.com/sandy121singh/Sonarproject.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > C:\Program Files\Git\bin\git.exe fetch --tags --progress https://github.com/sandy121singh/Sonarproject.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision fccdcb6b31a1b4641715b7627634a91586e5c471 (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f fccdcb6b31a1b4641715b7627634a91586e5c471
+Commit message: "first commit"
+ > C:\Program Files\Git\bin\git.exe rev-list fccdcb6b31a1b4641715b7627634a91586e5c471 # timeout=10
+[SonarProrject1] $ C:\Users\Administrator\Downloads\sonar-runner-dist-2.4\sonar-runner-2.4\bin\sonar-runner.bat -e -Dsonar.host.url=http://localhost:9090/ ******** ******** -Dsonar.projectName=SonarProject -Dsonar.projectVersion=1.0 -Dsonar.projectKey=SonarProject -Dsonar.sources=./src -Dsonar.projectBaseDir=C:\Users\Administrator\.jenkins\workspace\SonarProrject1
+C:\Users\Administrator\Downloads\sonar-runner-dist-2.4\sonar-runner-2.4\bin\..
+SonarQube Runner 2.4
+Java 1.8.0_151 Oracle Corporation (32-bit)
+Windows 7 6.1 x86
+INFO: Error stacktraces are turned on.
+INFO: Runner configuration file: C:\Users\Administrator\Downloads\sonar-runner-dist-2.4\sonar-runner-2.4\bin\..\conf\sonar-runner.properties
+INFO: Project configuration file: NONE
+INFO: Default locale: "en_US", source code encoding: "windows-1252" (analysis is platform dependent)
+INFO: Work directory: C:\Users\Administrator\.jenkins\workspace\SonarProrject1\.sonar
+INFO: SonarQube Server 5.1.2
+02:14:20.584 INFO  - Load global repositories
+02:14:21.291 INFO  - Load global repositories (done) | time=710ms
+02:14:21.293 INFO  - Server id: 20171027222453
+02:14:21.296 INFO  - User cache: C:\Users\Administrator\.sonar\cache
+02:14:21.333 INFO  - Install plugins
+02:14:21.452 INFO  - Install JDBC driver
+02:14:21.467 INFO  - Create JDBC datasource for jdbc:h2:tcp://localhost/sonar
+02:14:23.527 INFO  - Initializing Hibernate
+02:14:26.560 INFO  - Load project repositories
+02:14:29.290 INFO  - Load project repositories (done) | time=2730ms
+02:14:29.290 INFO  - Load project settings
+02:14:30.636 INFO  - Load technical debt model
+02:14:30.728 INFO  - Apply project exclusions
+02:14:31.325 INFO  - -------------  Scan SonarProject
+02:14:31.358 INFO  - Load module settings
+02:14:31.818 INFO  - Load rules
+02:14:32.377 INFO  - Base dir: C:\Users\Administrator\.jenkins\workspace\SonarProrject1
+02:14:32.377 INFO  - Working dir: C:\Users\Administrator\.jenkins\workspace\SonarProrject1\.sonar
+02:14:32.379 INFO  - Source paths: src
+02:14:32.380 INFO  - Source encoding: windows-1252, default locale: en_US
+02:14:32.381 INFO  - Index files
+02:14:32.459 INFO  - 2 files indexed
+02:14:32.758 INFO  - Quality profile for java: Sonar way
+02:14:32.828 INFO  - Sensor JavaSquidSensor
+02:14:33.888 INFO  - Java Main Files AST scan...
+02:14:33.892 INFO  - 2 source files to be analyzed
+02:14:34.733 INFO  - Java Main Files AST scan done: 845 ms
+02:14:34.734 WARN  - Java bytecode has not been made available to the analyzer. The org.sonar.java.bytecode.visitor.DependenciesVisitor@178f09a, UnusedPrivateMethod rule, RedundantThrowsDeclarationCheck rule, S1217 rule are disabled.
+02:14:34.734 INFO  - 2/2 source files analyzed
+02:14:34.735 INFO  - Java Test Files AST scan...
+02:14:34.737 INFO  - 0 source files to be analyzed
+02:14:34.739 INFO  - Java Test Files AST scan done: 4 ms
+02:14:34.740 INFO  - 0/0 source files analyzed
+02:14:34.824 INFO  - Sensor JavaSquidSensor (done) | time=1996ms
+02:14:34.824 INFO  - Sensor Lines Sensor
+02:14:34.827 INFO  - Sensor Lines Sensor (done) | time=3ms
+02:14:34.827 INFO  - Sensor QProfileSensor
+02:14:34.832 INFO  - Sensor QProfileSensor (done) | time=5ms
+02:14:34.832 INFO  - Sensor InitialOpenIssuesSensor
+02:14:34.903 INFO  - Sensor InitialOpenIssuesSensor (done) | time=71ms
+02:14:34.903 INFO  - Sensor ProjectLinksSensor
+02:14:34.930 INFO  - Sensor ProjectLinksSensor (done) | time=27ms
+02:14:34.931 INFO  - Sensor VersionEventsSensor
+02:14:34.937 INFO  - Sensor VersionEventsSensor (done) | time=6ms
+02:14:34.938 INFO  - Sensor SurefireSensor
+02:14:34.956 INFO  - parsing C:\Users\Administrator\.jenkins\workspace\SonarProrject1\.sonar\build\surefire-reports
+02:14:34.956 WARN  - Reports path not found: C:\Users\Administrator\.jenkins\workspace\SonarProrject1\.sonar\build\surefire-reports
+02:14:34.956 INFO  - Sensor SurefireSensor (done) | time=18ms
+02:14:34.956 INFO  - Sensor SCM Sensor
+02:14:34.957 INFO  - SCM provider for this project is: git
+02:14:34.975 INFO  - 2 files to be analyzed
+02:14:36.034 INFO  - 2/2 files analyzed
+02:14:36.035 INFO  - Sensor SCM Sensor (done) | time=1079ms
+02:14:36.035 INFO  - Sensor CPD Sensor
+02:14:36.035 INFO  - JavaCpdEngine is used for java
+02:14:36.035 INFO  - Cross-project analysis disabled
+02:14:36.092 INFO  - Sensor CPD Sensor (done) | time=57ms
+02:14:36.093 INFO  - No quality gate is configured.
+02:14:36.542 INFO  - Execute decorators...
+02:14:37.181 INFO  - Store results in database
+02:14:37.968 INFO  - Analysis reports generated in 290ms, dir size=1 KB
+02:14:38.126 INFO  - Analysis reports compressed in 158ms, zip size=2 KB
+02:14:38.959 INFO  - Analysis reports sent to server in 833ms
+02:14:38.960 INFO  - ANALYSIS SUCCESSFUL, you can browse http://localhost:9090/dashboard/index/SonarProject
+02:14:38.960 INFO  - Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report.
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+Total time: 20.440s
+Final Memory: 15M/119M
+INFO: ------------------------------------------------------------------------
+Finished: SUCCESS

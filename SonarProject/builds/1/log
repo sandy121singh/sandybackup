@@ -1,0 +1,21 @@
+Started by user [8mha:AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgY+/dLi1CL94sS8lEpDI0MA5twwOcMAAAA=[0mSandeep Singh
+Building in workspace C:\Users\Administrator\.jenkins\workspace\SonarProject
+Cloning the remote Git repository
+Cloning repository https://github.com/sandy121singh/Sonarproject.git
+ > C:\Program Files\Git\bin\git.exe init C:\Users\Administrator\.jenkins\workspace\SonarProject # timeout=10
+Fetching upstream changes from https://github.com/sandy121singh/Sonarproject.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > C:\Program Files\Git\bin\git.exe fetch --tags --progress https://github.com/sandy121singh/Sonarproject.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/sandy121singh/Sonarproject.git # timeout=10
+ > C:\Program Files\Git\bin\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/sandy121singh/Sonarproject.git # timeout=10
+Fetching upstream changes from https://github.com/sandy121singh/Sonarproject.git
+ > C:\Program Files\Git\bin\git.exe fetch --tags --progress https://github.com/sandy121singh/Sonarproject.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision fccdcb6b31a1b4641715b7627634a91586e5c471 (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f fccdcb6b31a1b4641715b7627634a91586e5c471
+Commit message: "first commit"
+First time build. Skipping changelog.
+Finished: SUCCESS

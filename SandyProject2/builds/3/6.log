@@ -1,0 +1,13 @@
+ > C:\Program Files\Git\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://gitlab.com/sandy1991/jenkinsProject.git # timeout=10
+Fetching upstream changes from https://gitlab.com/sandy1991/jenkinsProject.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > C:\Program Files\Git\bin\git.exe fetch --tags --progress https://gitlab.com/sandy1991/jenkinsProject.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 3d8c5aa51cf4ab5346562d781e1ed4425145141f (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 3d8c5aa51cf4ab5346562d781e1ed4425145141f
+Commit message: "Initial Commit"
+ > C:\Program Files\Git\bin\git.exe rev-list 3d8c5aa51cf4ab5346562d781e1ed4425145141f # timeout=10

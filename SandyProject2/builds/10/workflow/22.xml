@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.14">
+  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepEndNode" plugin="workflow-cps@2.41">
+    <parentIds>
+      <string>21</string>
+    </parentIds>
+    <id>22</id>
+    <startId>4</startId>
+  </node>
+  <actions>
+    <org.jenkinsci.plugins.workflow.actions.BodyInvocationAction plugin="workflow-api@2.23.1"/>
+    <org.jenkinsci.plugins.workflow.actions.ErrorAction plugin="workflow-api@2.23.1">
+      <error class="hudson.AbortException">
+        <detailMessage>No test report files were found. Configuration error?</detailMessage>
+        <stackTrace>
+          <trace>hudson.tasks.junit.JUnitParser$ParseResultCallable.invoke(JUnitParser.java:140)</trace>
+          <trace>hudson.tasks.junit.JUnitParser$ParseResultCallable.invoke(JUnitParser.java:107)</trace>
+          <trace>hudson.FilePath.act(FilePath.java:1018)</trace>
+          <trace>hudson.FilePath.act(FilePath.java:996)</trace>
+          <trace>hudson.tasks.junit.JUnitParser.parseResult(JUnitParser.java:103)</trace>
+          <trace>hudson.tasks.junit.JUnitResultArchiver.parse(JUnitResultArchiver.java:128)</trace>
+          <trace>hudson.tasks.junit.JUnitResultArchiver.perform(JUnitResultArchiver.java:149)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.CoreStep$Execution.run(CoreStep.java:80)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.CoreStep$Execution.run(CoreStep.java:67)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution$1$1.call(SynchronousNonBlockingStepExecution.java:49)</trace>
+          <trace>hudson.security.ACL.impersonate(ACL.java:213)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution$1.run(SynchronousNonBlockingStepExecution.java:46)</trace>
+          <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+          <trace>java.lang.Thread.run(Thread.java:748)</trace>
+        </stackTrace>
+        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+          <c class="list"/>
+          <list reference="../c"/>
+        </suppressedExceptions>
+      </error>
+    </org.jenkinsci.plugins.workflow.actions.ErrorAction>
+    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.23.1">
+      <startTime>1509043387994</startTime>
+    </org.jenkinsci.plugins.workflow.actions.TimingAction>
+  </actions>
+</org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

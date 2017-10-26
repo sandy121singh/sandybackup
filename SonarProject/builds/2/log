@@ -1,0 +1,161 @@
+Started by user [8mha:AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgY+/dLi1CL94sS8lEpDI0MA5twwOcMAAAA=[0mSandeep Singh
+Building in workspace C:\Users\Administrator\.jenkins\workspace\SonarProject
+ > C:\Program Files\Git\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/sandy121singh/Sonarproject.git # timeout=10
+Fetching upstream changes from https://github.com/sandy121singh/Sonarproject.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > C:\Program Files\Git\bin\git.exe fetch --tags --progress https://github.com/sandy121singh/Sonarproject.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision fccdcb6b31a1b4641715b7627634a91586e5c471 (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f fccdcb6b31a1b4641715b7627634a91586e5c471
+Commit message: "first commit"
+ > C:\Program Files\Git\bin\git.exe rev-list fccdcb6b31a1b4641715b7627634a91586e5c471 # timeout=10
+Injecting SonarQube environment variables using the configuration: SonarQube
+[SonarProject] $ cmd.exe /C "C:\Users\Administrator\Downloads\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\mvn.cmd clean install sonar:sonar && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for com.cgi.jenkins.project:jenkinsProject:jar:0.0.1-SNAPSHOT
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:sonar-maven-plugin is missing. @ line 67, column 17
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 46, column 11
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jenkinsProject 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jenkinsProject ---
+[INFO] Deleting C:\Users\Administrator\.jenkins\workspace\SonarProject\target
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jenkinsProject ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Administrator\.jenkins\workspace\SonarProject\src\main\resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jenkinsProject ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\Administrator\.jenkins\workspace\SonarProject\target\classes
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] error reading C:\Users\Administrator\.m2\repository\org\sonarsource\sonarqube\sonar-plugin-api\6.6\sonar-plugin-api-6.6.jar; invalid LOC header (bad signature)
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jenkinsProject ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Administrator\.jenkins\workspace\SonarProject\src\test\resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jenkinsProject ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\Administrator\.jenkins\workspace\SonarProject\target\test-classes
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] error reading C:\Users\Administrator\.m2\repository\org\sonarsource\sonarqube\sonar-plugin-api\6.6\sonar-plugin-api-6.6.jar; invalid LOC header (bad signature)
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ jenkinsProject ---
+[INFO] Surefire report directory: C:\Users\Administrator\.jenkins\workspace\SonarProject\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ jenkinsProject ---
+[INFO] Building jar: C:\Users\Administrator\.jenkins\workspace\SonarProject\target\jenkinsProject-0.0.1-SNAPSHOT.jar
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ jenkinsProject ---
+[INFO] Installing C:\Users\Administrator\.jenkins\workspace\SonarProject\target\jenkinsProject-0.0.1-SNAPSHOT.jar to C:\Users\Administrator\.m2\repository\com\cgi\jenkins\project\jenkinsProject\0.0.1-SNAPSHOT\jenkinsProject-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\Administrator\.jenkins\workspace\SonarProject\pom.xml to C:\Users\Administrator\.m2\repository\com\cgi\jenkins\project\jenkinsProject\0.0.1-SNAPSHOT\jenkinsProject-0.0.1-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jenkinsProject 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- sonar-maven-plugin:3.3.0.603:sonar (default-cli) @ jenkinsProject ---
+[INFO] User cache: C:\Users\Administrator\.sonar\cache
+[INFO] SonarQube version: 5.1.2
+[INFO] Default locale: "en_US", source code encoding: "UTF-8"
+00:08:18.994 INFO  - Load global repositories
+00:08:20.363 INFO  - Load global repositories (done) | time=1429ms
+00:08:20.366 INFO  - Server id: 20171027222453
+00:08:20.370 INFO  - User cache: C:\Users\Administrator\.sonar\cache
+00:08:20.418 INFO  - Install plugins
+00:08:21.299 INFO  - Install JDBC driver
+00:08:21.384 INFO  - Create JDBC datasource for jdbc:h2:tcp://localhost/sonar
+00:08:24.768 INFO  - Initializing Hibernate
+00:08:29.767 INFO  - Load project repositories
+00:08:32.972 INFO  - Load project repositories (done) | time=3205ms
+00:08:32.973 INFO  - Load project settings
+00:08:35.103 INFO  - Load technical debt model
+00:08:35.185 INFO  - Apply project exclusions
+00:08:36.127 INFO  - -------------  Scan jenkinsProject
+00:08:36.150 INFO  - Load module settings
+00:08:36.631 INFO  - Load rules
+00:08:37.102 INFO  - Base dir: C:\Users\Administrator\.jenkins\workspace\SonarProject
+00:08:37.102 INFO  - Working dir: C:\Users\Administrator\.jenkins\workspace\SonarProject\target\sonar
+00:08:37.106 INFO  - Source paths: pom.xml, src/main/java
+00:08:37.107 INFO  - Test paths: src/test/java
+00:08:37.144 INFO  - Binary dirs: target/classes
+00:08:37.144 INFO  - Source encoding: UTF-8, default locale: en_US
+00:08:37.146 INFO  - Index files
+00:08:37.194 INFO  - 2 files indexed
+00:08:37.322 INFO  - Quality profile for java: Sonar way
+00:08:37.400 INFO  - Sensor JavaSquidSensor
+00:08:38.482 INFO  - Java Main Files AST scan...
+00:08:38.488 INFO  - 1 source files to be analyzed
+00:08:39.184 INFO  - Java Main Files AST scan done: 702 ms
+00:08:39.185 INFO  - 1/1 source files analyzed
+00:08:39.191 INFO  - Java bytecode scan...
+00:08:39.415 INFO  - Java bytecode scan done: 224 ms
+00:08:39.416 INFO  - Java Test Files AST scan...
+00:08:39.416 INFO  - 1 source files to be analyzed
+00:08:39.446 INFO  - Java Test Files AST scan done: 30 ms
+00:08:39.448 INFO  - 1/1 source files analyzed
+00:08:39.452 INFO  - Package design analysis...
+00:08:39.490 INFO  - Package design analysis done: 38 ms
+00:08:39.516 INFO  - Sensor JavaSquidSensor (done) | time=2116ms
+00:08:39.516 INFO  - Sensor Lines Sensor
+00:08:39.519 INFO  - Sensor Lines Sensor (done) | time=3ms
+00:08:39.519 INFO  - Sensor QProfileSensor
+00:08:39.523 INFO  - Sensor QProfileSensor (done) | time=4ms
+00:08:39.524 INFO  - Sensor InitialOpenIssuesSensor
+00:08:39.634 INFO  - Sensor InitialOpenIssuesSensor (done) | time=110ms
+00:08:39.634 INFO  - Sensor ProjectLinksSensor
+00:08:39.686 INFO  - Sensor ProjectLinksSensor (done) | time=52ms
+00:08:39.686 INFO  - Sensor VersionEventsSensor
+00:08:39.735 INFO  - Sensor VersionEventsSensor (done) | time=49ms
+00:08:39.735 INFO  - Sensor SurefireSensor
+00:08:39.836 INFO  - parsing C:\Users\Administrator\.jenkins\workspace\SonarProject\target\surefire-reports
+00:08:39.837 WARN  - Reports path not found: C:\Users\Administrator\.jenkins\workspace\SonarProject\target\surefire-reports
+00:08:39.837 INFO  - Sensor SurefireSensor (done) | time=102ms
+00:08:39.837 INFO  - Sensor SCM Sensor
+00:08:39.838 INFO  - SCM provider for this project is: git
+00:08:39.896 INFO  - 2 files to be analyzed
+00:08:40.642 INFO  - 2/2 files analyzed
+00:08:40.643 INFO  - Sensor SCM Sensor (done) | time=806ms
+00:08:40.643 INFO  - Sensor CPD Sensor
+00:08:40.643 INFO  - JavaCpdEngine is used for java
+00:08:40.644 INFO  - Cross-project analysis disabled
+00:08:40.808 INFO  - Sensor CPD Sensor (done) | time=165ms
+00:08:40.809 INFO  - No quality gate is configured.
+00:08:40.944 INFO  - Compare to previous analysis (2017-10-27)
+00:08:40.947 INFO  - Compare over 30 days (2017-09-28, analysis of Fri Oct 27 22:45:27 IST 2017)
+00:08:41.582 INFO  - Execute decorators...
+00:08:42.360 INFO  - Store results in database
+00:08:43.096 INFO  - Analysis reports generated in 170ms, dir size=1 KB
+00:08:43.315 INFO  - Analysis reports compressed in 219ms, zip size=2 KB
+00:08:43.702 INFO  - Analysis reports sent to server in 385ms
+00:08:43.702 INFO  - ANALYSIS SUCCESSFUL, you can browse http://localhost:9090/dashboard/index/com.cgi.jenkins.project:jenkinsProject
+00:08:43.702 INFO  - Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 38.692 s
+[INFO] Finished at: 2017-10-28T00:08:43+05:30
+[INFO] Final Memory: 26M/93M
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

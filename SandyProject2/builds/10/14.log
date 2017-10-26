@@ -1,0 +1,58 @@
+[SandyProject2] Running batch script
+
+C:\Users\Administrator\.jenkins\workspace\SandyProject2>"C:\Users\Administrator\Downloads\apache-maven-3.5.2-bin\apache-maven-3.5.2/\bin\mvn" -Dmaven.test.failure.ignore clean package 
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.cgi.jenkins.project:jenkinsProject:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 27, column 11
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jenkinsProject 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jenkinsProject ---
+[INFO] Deleting C:\Users\Administrator\.jenkins\workspace\SandyProject2\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jenkinsProject ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Administrator\.jenkins\workspace\SandyProject2\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jenkinsProject ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\Administrator\.jenkins\workspace\SandyProject2\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jenkinsProject ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Administrator\.jenkins\workspace\SandyProject2\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jenkinsProject ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\Administrator\.jenkins\workspace\SandyProject2\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ jenkinsProject ---
+[INFO] Surefire report directory: C:\Users\Administrator\.jenkins\workspace\SandyProject2\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+There are no tests to run.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ jenkinsProject ---
+[INFO] Building jar: C:\Users\Administrator\.jenkins\workspace\SandyProject2\target\jenkinsProject-0.0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.479 s
+[INFO] Finished at: 2017-10-27T00:13:06+05:30
+[INFO] Final Memory: 13M/31M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,33 @@
+Started by user [8mha:AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgY+/dLi1CL94sS8lEpDI0MA5twwOcMAAAA=[0mSandeep Singh
+Building in workspace C:\Users\Administrator\.jenkins\workspace\AntProject
+Cloning the remote Git repository
+Cloning repository https://github.com/sandy121singh/SimpleAnt.git
+ > C:\Program Files\Git\bin\git.exe init C:\Users\Administrator\.jenkins\workspace\AntProject # timeout=10
+Fetching upstream changes from https://github.com/sandy121singh/SimpleAnt.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > C:\Program Files\Git\bin\git.exe fetch --tags --progress https://github.com/sandy121singh/SimpleAnt.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/sandy121singh/SimpleAnt.git # timeout=10
+ > C:\Program Files\Git\bin\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/sandy121singh/SimpleAnt.git # timeout=10
+Fetching upstream changes from https://github.com/sandy121singh/SimpleAnt.git
+ > C:\Program Files\Git\bin\git.exe fetch --tags --progress https://github.com/sandy121singh/SimpleAnt.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision d67981880b7b3b5a72c55b76da53b226fdad7c03 (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f d67981880b7b3b5a72c55b76da53b226fdad7c03
+Commit message: "first commit"
+First time build. Skipping changelog.
+[AntProject] $ cmd.exe /C "C:\Users\Administrator\Downloads\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin\ant.bat compile && exit %%ERRORLEVEL%%"
+Buildfile: C:\Users\Administrator\.jenkins\workspace\AntProject\build.xml
+
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0m[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minit:
+
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0m[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcompile:
+    [javac] Compiling 1 source file to C:\Users\Administrator\.jenkins\workspace\AntProject\bin
+
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 3 seconds
+Java HotSpot(TM) Client VM warning: ignoring option PermSize=64M; support was removed in 8.0
+Java HotSpot(TM) Client VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Finished: SUCCESS
